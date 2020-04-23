@@ -20,7 +20,7 @@ function check($string)
     }
 }
 
-function printX($string)
+function printResult($string)
 {
     if (check($string)) {
         echo 'Dung';
@@ -30,6 +30,6 @@ function printX($string)
 }
 
 $string = "s * (s – a) * (s – b * (s – c)";
-printX($string);
+printResult($string);
 
 
